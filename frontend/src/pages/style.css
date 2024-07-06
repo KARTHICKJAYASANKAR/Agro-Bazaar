@@ -1,0 +1,195 @@
+.s-page{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url("https://res.cloudinary.com/dgtonwmdv/image/upload/v1701197473/pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-19670_khifrn.jpg"); */
+    background-color: rgba(236, 213, 217, 0.541);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.s-nav{
+    position: relative;
+    top: -1px;
+    padding: 7px;
+    background-color: #007bff;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+.s-logout{
+    background-color: rgb(187, 50, 50);
+    color: #ffebcd;
+    width: 6em;
+    height: 3em;
+}
+.s-add{
+    background-color: rgba(0, 128, 0, 0.8);
+    color: #ffebcd;
+    width: 10em;
+    height: 3em;
+}
+.s-add:hover{
+    background-color: green;
+}
+.s-logout:hover{
+    background-color: firebrick ;
+}
+.s-heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lo-btn-div{
+    width: 70em;
+    display: flex;
+    justify-content: end;
+}
+.t-div{
+    margin: 6em 5em 0em 5em;
+    padding: 0.6em;
+    width: 80%;
+    border: 3px solid #121212;
+    border-radius: .5em;
+}
+.t-table{
+    width: 100%;
+    /* background-color: rgba(255, 235, 205, 0.5);
+    padding: 0px; */
+}
+
+.t-row{
+    height: 7em;
+    padding: 50px;  
+}
+.t-row-d{
+    text-align: center; 
+    vertical-align: middle; 
+}
+.s-t-pro-img{
+    height: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.e-form{
+    position: relative;
+    top: 10em;
+    left: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+.e-img{
+    width: 80%;
+    height: 80%;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.e-img-div{
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    height: 17em;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 13em;
+}
+.e-body-details{
+   width: 20em;
+   position: absolute;
+   left: 37em;
+   top: -0.2em;
+}
+.profile-bdy{
+    /* background-color: #007bff; */
+    width: 70em;
+    position: relative;
+    top: 7em;
+    left: 14em;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.profile-bdy-outer{
+    width: 65em;
+    height: 40em;
+    z-index: 2;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    position: relative;
+    position: fixed;
+    top: 5em;
+    left: 17em;
+}
+.profile-image{
+    width: 14.5em;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.profile-image-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 0;
+}
+.profile-table{
+    display: flex;
+    width: 55em;
+}
+.head-p{
+    padding: 1.5em;
+    text-align: center;
+    font-style: normal;
+}
+
+
+/*---------------------------------------------------------------*/
+.container-order{
+    position: relative;
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    top: 6.5em;
+    z-index: 1;
+    padding: 0em 0em 0em 6em;
+}
+.bill-card{
+    background-color: #b3e099;
+    border: 2px solid #668c4d;
+    border-radius: 10px;
+    padding: 2em;
+    margin: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+   cursor: pointer;
+   transition: 0.5;
+}
+.bill-card:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+.li-bill{
+    list-style: none;
+    
+}
+.span-li-bill{
+    font-weight: 600;
+    font-size: x-large;
+    font-weight: bold;
+}
+.id-span{
+    font-size: x-small;
+    font-weight: bolder;
+    font-style: italic;
+    color: green;
+}
+

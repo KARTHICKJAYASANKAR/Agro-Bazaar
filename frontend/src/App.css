@@ -1,0 +1,442 @@
+/* Register page */
+.register {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.reg-form {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.btn-model{
+    width: 100px;
+    height: 50px;
+}
+
+
+
+/*Index page*/
+.indexpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.index-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #333;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* navbar */
+.navbar {
+    background-color: #333;
+    color: white;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+/* Styling for the form container */
+.pay {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the form labels */
+  .pay-inp {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* Styling for the input fields */
+  .pay-inp input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for the button */
+  .pay-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .pay-btn:hover {
+    background-color: #edeeed;
+  }
+  
+
+  /*---------------------------------------------SignUp Seller --------------------------*/
+  /* Responsive Styles */
+  .img-section-s{
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+  }
+
+  .create-page{
+    background-color: #007bff;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  .sellform {
+    position: relative;
+    top: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fcfcfc;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+  }
+  .heding-sell{
+    font-size:x-large;
+     color: #007bff;
+     display: flex;
+     justify-content: center;
+  }
+
+ .s-h-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .s-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #12121204;
+    border-radius: 0em;
+    padding: 0.5em;
+    height: 2.5em;
+    transition: 0.5s;
+    cursor: pointer;
+ }
+ .s-profile:hover{
+    border-bottom: 3px solid #121212;
+ }
+ .s-d-link{
+    color:#121212;
+    text-decoration: none;
+    transition: 0.4s;
+ }
+
+ .s-p-link{
+    color:#121212;
+    text-decoration: none;
+    transition: 0.4s;
+ }
+
+
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+/* Basic styling for the form container */
+.p-form {
+    position: relative;
+    top: 20px;
+    background-color: #e0e4cc;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid #0b0d0f;
+    border-radius: 1.2em;
+    box-shadow: 0 0 10px #090a0a;
+    height: 540px;
+  }
+  .create-page{
+    background-color: #b9d7d9;
+  }
+  /* Style for form headings */
+  .p-heading {
+    color: #10151b;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+  .p-h-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style for form labels */
+  .p-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for form inputs */
+  .p-input {
+    border-radius: 0.5em;
+    border: 2px solid #0b0d0f;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for form textarea */
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for form select */
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for form file input */
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for form button */
+ 
+  
+/* Style for textarea */
+.p-textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    resize: vertical; /* Allow vertical resizing */ /* Set a minimum height */
+    height: 3em;
+  }
+
+.create-p-btn{
+    width:18em;
+    height: 2.5em;
+}
+
+.create-prod-sub-btn{
+    display: flex;
+}
+
+
+
+  /* Responsive layout for smaller screens */
+  @media (max-width: 600px) {
+    .p-form {
+      max-width: 100%;
+    }
+  }
+  
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 600px) {
+    form {
+      padding: 10px;
+    }
+  }
+  
+
+
+  /*----------------------indexpage----------------------------*/
+
+  .indexpage {
+    background-color: #d5e7e8;
+    text-align: center;
+    margin-top: 0px;
+    display: flex;
+    align-items: start;
+  }
+  
+  .index-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d5e7e8;
+    box-shadow: 0px 0px 0px 0px;
+  }
+  
+  .index-heading {
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+  
+  .ind-btn-div {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .index-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .index-btn.buy-btn {
+    width: 10em;
+    height: 8em;
+    background-color:#4caf50;
+    color: white;
+  }
+  
+  .index-btn.sell-btn {
+    width: 10em;
+    height: 8em;
+    background-color:#007bff;
+    color: white;
+  }
+  
+  .index-btn.buy-btn:hover {
+    background-color: #2a812d;
+  }
+  
+  .index-btn.sell-btn:hover {
+    background-color: #0c58a8;
+  }
+  
+  .animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #fff800 0%,
+    #231557 25%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+  display: inline-block;
+      font-size: 100px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+

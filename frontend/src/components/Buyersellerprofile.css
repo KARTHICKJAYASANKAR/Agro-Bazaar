@@ -1,0 +1,49 @@
+.buy-profile-image-div{
+    /* background-color: chartreuse; */
+    width: 600px;
+    margin: 0px 30px 30px 370px;
+    height: 340px;
+    position: relative;
+    top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profile-image{
+    height: 170px;
+    width: 170px;
+    margin: 0px 0px 0px 0px;
+}
+.follow-btn-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: yellow; */
+
+}
+.follow-btn{
+    margin-top: 0px;
+    width: 150px;
+    height: 40px;
+}
+.prod-div{
+    /* background-color: yellow; */
+    margin: 0px 60px 60px 60px;
+}
+
+.sug-btn{
+    width: 100%;
+    height: 4em;
+    background-color: #E8E8E8;
+    color: #666666;
+    transition-duration: 0.4s;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.sug-btn:hover{
+    background-color: #E8E8E8; 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}

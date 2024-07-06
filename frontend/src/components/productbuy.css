@@ -1,0 +1,27 @@
+.pb-right{
+    /* background-color: yellow; */
+    width: 40em;
+    position: relative;
+    left: -200px;
+    top: 10px;
+}
+
+.inp-pb{
+    background-color: #b9d7d9;
+    border-radius: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border: none; /* Remove default borders */
+    border-bottom: 2px solid black; /* Apply bottom border */
+    outline: none; /* Remove outline */
+    font-size: larger;
+}
+.inp-pb:focus{
+    border-bottom-color: black;
+}
+.pb-btn{
+    width: 10em;
+    height: 3em;
+    padding: 5px;
+}
